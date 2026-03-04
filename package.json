@@ -6,10 +6,10 @@
   ],
   "type": "module",
   "scripts": {
-    "dev": "bun run --filter @lecture/slidedev dev",
+    "dev": "bun run --cwd workspaces/slidedev dev",
     "build": "bun run --filter @lecture/slidedev build",
     "export": "bun run --filter @lecture/slidedev export",
-    "lecture:slides": "bun run --filter @lecture/slidedev dev",
+    "lecture:slides": "bun run --cwd workspaces/slidedev dev",
     "lecture:structure:check": "bun run --filter @lecture/project-structure check",
     "lecture:structure:backend:module": "bun run --filter @lecture/project-structure dev:backend:module",
     "lecture:structure:backend:layer": "bun run --filter @lecture/project-structure dev:backend:layer",
