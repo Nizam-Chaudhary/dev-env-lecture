@@ -29,6 +29,32 @@ bun run build
 bun run export
 ```
 
+## Lecture command map
+
+Use these root-level scripts to move through topics quickly during the lecture:
+
+```bash
+bun run lecture:slides
+bun run lecture:structure:check
+bun run lecture:structure:backend:module
+bun run lecture:structure:backend:layer
+bun run lecture:runtime:watch
+bun run lecture:runtime:nodemon
+bun run lecture:runtime:tsx
+bun run lecture:runtime:build
+bun run lecture:runtime:start
+bun run lecture:env:dotenv
+bun run lecture:env:zod
+bun run lecture:env:t3
+bun run lecture:debug
+bun run lecture:terminal:vim
+bun run lecture:terminal:nano
+bun run lecture:docker:build
+bun run lecture:docker:run
+bun run lecture:docker:compose:up
+bun run lecture:docker:compose:down
+```
+
 ## Monorepo quality checks
 
 Runs against all workspaces:

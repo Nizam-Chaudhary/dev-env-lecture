@@ -3,7 +3,7 @@
 This workspace contains educational examples for a Bun + Express backend and a React frontend, each shown in two organization styles:
 
 - Module-based (feature-first)
-- Type-based (layer-first)
+- Layer-based (type-first folders such as routes/services/components)
 
 ## Layout
 
@@ -20,5 +20,12 @@ project-structure/
 ## Why both styles?
 
 - Module-based is easier to scale by business domain.
-- Type-based is easy to discover by technical layer (routes, controllers, services, components).
+- Layer-based is easy to discover by technical layer (routes, controllers, services, components).
 - Teams can choose based on app size and collaboration model.
+
+## Run backend examples
+
+```bash
+bun run --filter @lecture/project-structure dev:backend:module
+bun run --filter @lecture/project-structure dev:backend:layer
+```
