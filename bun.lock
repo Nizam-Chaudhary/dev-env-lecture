@@ -9,6 +9,12 @@
         "oxlint": "^1.22.0",
       },
     },
+    "workspaces/docker-node-backend": {
+      "name": "@lecture/docker-node-backend",
+      "dependencies": {
+        "express": "^4.21.2",
+      },
+    },
     "workspaces/project-structure": {
       "name": "@lecture/project-structure",
       "dependencies": {
@@ -186,6 +192,8 @@
     "@jridgewell/sourcemap-codec": ["@jridgewell/sourcemap-codec@1.5.5", "", {}, "sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og=="],
 
     "@jridgewell/trace-mapping": ["@jridgewell/trace-mapping@0.3.31", "", { "dependencies": { "@jridgewell/resolve-uri": "^3.1.0", "@jridgewell/sourcemap-codec": "^1.4.14" } }, "sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw=="],
+
+    "@lecture/docker-node-backend": ["@lecture/docker-node-backend@workspace:workspaces/docker-node-backend"],
 
     "@lecture/project-structure": ["@lecture/project-structure@workspace:workspaces/project-structure"],
 

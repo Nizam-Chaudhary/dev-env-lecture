@@ -9,6 +9,8 @@
     "dev": "bun run --filter @lecture/slidedev dev",
     "build": "bun run --filter @lecture/slidedev build",
     "export": "bun run --filter @lecture/slidedev export",
+    "db:up": "docker compose up -d",
+    "db:down": "docker compose down",
     "lint": "oxlint . --ignore-path .gitignore",
     "lint:fix": "oxlint . --fix --ignore-path .gitignore",
     "format": "oxfmt .",
