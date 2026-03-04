@@ -14,12 +14,12 @@ Understand and compare two architecture patterns:
 
 ## Challenge 1 - Structure comparison map
 
-Compare structure styles in `workspaces/project-structure/`.
+Compare two structures inside your own practice repo.
 
 ### Tasks
 
-1. Explore backend module-based and layer-based folders.
-2. Explore frontend module-based and layer-based folders.
+1. In your repo, create `apps/module-based/` and `apps/layer-based/`.
+2. Model backend and frontend folders in both styles.
 3. Write a comparison table with tradeoffs.
 
 ### Acceptance criteria
@@ -34,8 +34,8 @@ Implement a tiny feature in both patterns.
 
 ### Tasks
 
-1. Add a `health` endpoint or equivalent in module-based backend.
-2. Add the same behavior in layer-based backend.
+1. Add a `health` endpoint or equivalent in `apps/module-based/backend`.
+2. Add the same behavior in `apps/layer-based/backend`.
 3. Keep naming and response shape consistent.
 
 ### Acceptance criteria
@@ -50,8 +50,8 @@ Simulate a user list flow in both frontend structures.
 
 ### Tasks
 
-1. Add fetch call stub/service for users in module-based frontend.
-2. Add same feature in layer-based frontend.
+1. Add fetch call stub/service for users in `apps/module-based/frontend`.
+2. Add same feature in `apps/layer-based/frontend`.
 3. Document where you placed UI, hooks, and service files.
 
 ### Acceptance criteria
@@ -85,4 +85,4 @@ Follow `exercises/submission.md`.
 
 ## Try next (optional, not part of exercise)
 
-Repeat one challenge with pnpm workspaces and compare command ergonomics against npm. If available, run with Bun and compare script compatibility.
+Start with this in a single repository with multiple folders (recommended baseline). Then, as an optional upgrade, convert it to a monorepo workspace layout and compare ergonomics. If available, run with Bun and compare script compatibility.

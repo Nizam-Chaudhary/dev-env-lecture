@@ -2,12 +2,15 @@
 
 Use this guide to submit all completed topic exercises.
 
+Important: complete the exercises in your own practice repository, not in this lecture repository.
+
 ## What to submit
 
 1. Repository reference
-   - Git branch name or repository link.
+   - Git branch name or repository link for your own practice repo.
+   - Include folder layout screenshot or tree output.
 2. Completed topics list
-   - Mention each file you completed under `exercises/*/excersises.md`.
+   - Mention each topic you completed and where implementation exists in your repo.
 3. Evidence package
    - Command outputs/log snippets.
    - Screenshots (IDE/debugger/docker where relevant).
@@ -30,6 +33,7 @@ Copy and fill this template:
 
 ## Repo
 - Branch or repo URL:
+- Repository layout used: single repo multi-folder / monorepo workspace
 
 ## Topics completed
 - [ ] IDE fundamentals and usage
@@ -58,6 +62,8 @@ Copy and fill this template:
 - Commands are reproducible from a clean clone.
 - Notes are clear enough for another intern to follow.
 - No secrets are committed (`.env` values are not committed).
+- Implementations are in your own repo (this lecture repo is reference only).
+- Baseline structure is a single repo with multiple folders; monorepo workspaces are an optional improvement.
 
 ## Optional exploration note (not graded)
 

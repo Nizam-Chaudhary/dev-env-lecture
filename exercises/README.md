@@ -5,7 +5,10 @@ This folder contains hands-on intern exercises for each lecture topic.
 Important defaults for all exercises:
 
 - Use Node.js (20+) and npm.
-- Run commands from repo root unless a step says otherwise.
+- Build your own separate practice repository for these exercises.
+- Start with a single repository with multiple folders (`backend/`, `frontend/`, `docs/`).
+- Monorepo/workspace setup is encouraged as an optional improvement after baseline completion.
+- Use this repo only as a reference for ideas, not as the place where you implement solutions.
 - Treat Bun, pnpm, yarn, and other runtimes/package managers as optional exploration after you complete required tasks.
 
 ## Topics

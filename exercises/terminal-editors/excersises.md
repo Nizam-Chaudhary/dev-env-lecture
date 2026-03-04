@@ -24,7 +24,6 @@ Practice mode switching and file save/quit actions.
 ### Suggested commands
 
 ```bash
-npm run lecture:terminal:vim
 vim exercises/terminal-editors/vim-practice.txt
 ```
 
@@ -46,7 +45,6 @@ Use nano shortcut flow and on-screen help.
 ### Suggested commands
 
 ```bash
-npm run lecture:terminal:nano
 nano exercises/terminal-editors/nano-practice.txt
 ```
 

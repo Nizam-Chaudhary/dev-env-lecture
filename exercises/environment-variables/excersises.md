@@ -15,14 +15,14 @@ Load env values from file and use them in app startup.
 
 ### Tasks
 
-1. Create local `.env` from example if needed.
-2. Run dotenv demo script.
+1. Create local `.env` and `.env.example` in your own project.
+2. Run your dotenv demo script.
 3. Confirm required variables are loaded.
 
 ### Suggested commands
 
 ```bash
-npm run lecture:env:dotenv
+npm run env:dotenv
 ```
 
 ### Acceptance criteria
@@ -36,14 +36,14 @@ Add runtime validation with clear failure messages.
 
 ### Tasks
 
-1. Run zod env demo.
+1. Run your zod env demo.
 2. Purposely set one invalid value.
 3. Capture validation error and fix it.
 
 ### Suggested commands
 
 ```bash
-npm run lecture:env:zod
+npm run env:zod
 ```
 
 ### Acceptance criteria
@@ -57,14 +57,14 @@ Use centralized typed env access.
 
 ### Tasks
 
-1. Run `@t3/env` demo script.
+1. Run your `@t3/env` demo script.
 2. Identify where server/client env boundaries are defined.
 3. Add one new env variable with validation.
 
 ### Suggested commands
 
 ```bash
-npm run lecture:env:t3
+npm run env:t3
 ```
 
 ### Acceptance criteria

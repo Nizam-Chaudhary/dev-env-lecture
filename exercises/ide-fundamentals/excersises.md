@@ -2,31 +2,29 @@
 
 ## Objective
 
-Set up a productive local development workflow using your IDE and terminal.
+Set up a productive local development workflow using your IDE and terminal in your own practice repository.
 
 ## Required stack
 
 - Node.js 20+
 - npm 10+
-- VS Code (recommended for this repo)
+- VS Code (recommended)
 
-## Challenge 1 - Workspace orientation
+## Challenge 1 - Create your practice repository
 
-Map the monorepo and identify where each lecture topic lives.
+Create a standalone repository for all exercises.
 
 ### Tasks
 
-1. Open the repo in your IDE.
-2. Locate the root `package.json` and identify lecture scripts.
-3. Find these folders:
-   - `workspaces/slidedev/`
-   - `workspaces/project-structure/`
-   - `workspaces/docker-node-backend/`
+1. Create a new repo, for example `dev-env-intern-lab`.
+2. Initialize Node.js project with npm.
+3. Add folders: `backend/`, `frontend/`, `docs/`, `scripts/`.
+4. Add npm scripts for `dev`, `build`, `start`, `lint`, and `format:check`.
 
 ### Acceptance criteria
 
-- You can explain what each workspace is used for in 1-2 lines.
-- You can point to at least 5 root scripts and what they do.
+- You have a working standalone repo with the required folders.
+- `package.json` contains at least 5 useful scripts.
 
 ## Challenge 2 - IDE productivity baseline
 
@@ -47,19 +45,19 @@ Configure your IDE for faster feedback.
 
 ## Challenge 3 - Command flow with npm
 
-Run project tasks with npm scripts (Node.js + npm focus).
+Run your own project tasks with npm scripts (Node.js + npm focus).
 
 ### Tasks
 
 1. Install dependencies using npm.
-2. Run slides locally with npm.
-3. Run lint and format check from root.
+2. Run your `dev` script.
+3. Run lint and format check.
 
 ### Suggested commands
 
 ```bash
 npm install
-npm run lecture:slides
+npm run dev
 npm run lint
 npm run format:check
 ```
@@ -81,7 +79,7 @@ Create a short onboarding note for a new intern.
 
 ### Acceptance criteria
 
-- Another intern can follow your note and run at least one workspace.
+- Another intern can follow your note and run your practice repo locally.
 - Your note includes at least 3 troubleshooting tips.
 
 ## Deliverables

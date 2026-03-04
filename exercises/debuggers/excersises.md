@@ -16,14 +16,14 @@ Start app in debug mode and attach VS Code.
 
 ### Tasks
 
-1. Run debug script.
-2. Start debugger from `.vscode/launch.json`.
+1. Run your debug script.
+2. Start debugger from your IDE launch configuration.
 3. Confirm debugger is attached.
 
 ### Suggested commands
 
 ```bash
-npm run lecture:debug
+npm run debug
 ```
 
 ### Acceptance criteria

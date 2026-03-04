@@ -16,15 +16,15 @@ Build backend image and run it locally.
 
 ### Tasks
 
-1. Build Docker image for backend workspace.
+1. Build Docker image for your backend.
 2. Run container mapping app port.
 3. Verify health endpoint from host.
 
 ### Suggested commands
 
 ```bash
-npm run lecture:docker:build
-npm run lecture:docker:run
+docker build -t intern-backend .
+docker run --rm -p 3000:3000 intern-backend
 curl http://localhost:3000/health
 ```
 
@@ -46,8 +46,8 @@ Operate database support services with compose.
 ### Suggested commands
 
 ```bash
-npm run lecture:docker:compose:up
-npm run lecture:docker:compose:down
+docker compose up -d
+docker compose down
 ```
 
 ### Acceptance criteria

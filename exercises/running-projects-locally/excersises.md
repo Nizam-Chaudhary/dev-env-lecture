@@ -2,7 +2,7 @@
 
 ## Objective
 
-Practice local runtime workflows: watch mode, nodemon, TypeScript/tsx, and production build execution.
+Practice local runtime workflows in your own repo: watch mode, nodemon, TypeScript/tsx, and production build execution.
 
 ## Required stack
 
@@ -15,18 +15,21 @@ Run multiple local dev modes and compare behavior.
 
 ### Tasks
 
-1. Start the backend in watch mode.
-2. Start with nodemon mode.
-3. Start with tsx mode.
-4. Trigger a code change and observe restart speed.
+1. Add scripts in your project for watch mode, nodemon mode, and tsx mode.
+2. Start the backend in watch mode.
+3. Start with nodemon mode.
+4. Start with tsx mode.
+5. Trigger a code change and observe restart speed.
 
 ### Suggested commands
 
 ```bash
-npm run lecture:runtime:watch
-npm run lecture:runtime:nodemon
-npm run lecture:runtime:tsx
+npm run dev:watch
+npm run dev:nodemon
+npm run dev:tsx
 ```
+
+Replace the script names with your own script names if they differ.
 
 ### Acceptance criteria
 
@@ -46,10 +49,12 @@ Use compiled output like a production flow.
 ### Suggested commands
 
 ```bash
-npm run lecture:runtime:build
-npm run lecture:runtime:start
+npm run build
+npm run start
 curl http://localhost:3000/health
 ```
+
+Replace script names and endpoint path based on your app.
 
 ### Acceptance criteria
 
