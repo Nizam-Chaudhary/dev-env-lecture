@@ -1,0 +1,21 @@
+{
+  "name": "bun-lecture-monorepo",
+  "private": true,
+  "workspaces": [
+    "workspaces/*"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --filter @lecture/slidedev dev",
+    "build": "bun run --filter @lecture/slidedev build",
+    "export": "bun run --filter @lecture/slidedev export",
+    "lint": "oxlint . --ignore-path .gitignore",
+    "lint:fix": "oxlint . --fix --ignore-path .gitignore",
+    "format": "oxfmt .",
+    "format:check": "oxfmt . --check"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.31.0",
+    "oxlint": "^1.22.0"
+  }
+}

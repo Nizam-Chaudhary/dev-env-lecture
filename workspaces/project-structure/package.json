@@ -1,0 +1,24 @@
+{
+  "name": "@lecture/project-structure",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "bun run check:backend && bun run check:frontend",
+    "check:backend": "bunx tsc --project backend/module-based/tsconfig.json --noEmit && bunx tsc --project backend/type-based/tsconfig.json --noEmit",
+    "check:frontend": "bunx tsc --project frontend/module-based/tsconfig.json --noEmit && bunx tsc --project frontend/type-based/tsconfig.json --noEmit",
+    "lint": "oxlint . --ignore-path ../../.gitignore",
+    "format": "oxfmt .",
+    "format:check": "oxfmt . --check"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.23",
+    "@types/react": "^18.3.26",
+    "@types/react-dom": "^18.3.7",
+    "typescript": "^5.9.2"
+  }
+}

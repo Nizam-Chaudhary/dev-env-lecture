@@ -1,0 +1,11 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "ignorePatterns": ["**/node_modules/**", "**/dist/**", "**/build/**"],
+  "plugins": ["typescript", "react", "jsx-a11y", "import"],
+  "rules": {
+    "eqeqeq": "error",
+    "import/no-duplicates": "error",
+    "react/jsx-no-undef": "error",
+    "react/no-direct-mutation-state": "error"
+  }
+}
