@@ -35,6 +35,28 @@ workspaces/
 
 ---
 
+# Prerequisites
+
+- Node.js 20+ installed (`node -v`)
+- Bun installed for lecture scripts (`bun -v`)
+- Docker Engine + Docker Compose available (`docker --version`, `docker compose version`)
+- Vim installed (`vim --version`)
+- Nano installed (`nano --version`)
+- Windows users: WSL2 enabled with a Linux distro (`wsl --status`)
+- VS Code with Remote - WSL extension installed
+
+---
+
+# Node in WSL + VS Code
+
+- Install Node/Bun inside WSL (not Windows global install)
+- Keep project files inside Linux filesystem for better performance
+- Open project from WSL: `code .`
+- In VS Code, confirm bottom-left shows `WSL: <distro-name>`
+- Run terminal commands in the WSL terminal for consistent tooling
+
+---
+
 # IDE Fundamentals
 
 - Keep one terminal for app runtime and one for tooling
